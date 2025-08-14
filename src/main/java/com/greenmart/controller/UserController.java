@@ -28,7 +28,7 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://green-mart-ui.netlify.app"})
 @AllArgsConstructor
 @Validated
 public class UserController {

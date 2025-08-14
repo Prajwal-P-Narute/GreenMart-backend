@@ -21,7 +21,7 @@ import lombok.AllArgsConstructor;
 @RequestMapping("/cart")
 @AllArgsConstructor
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://green-mart-ui.netlify.app"})
 
 public class CartController {
 

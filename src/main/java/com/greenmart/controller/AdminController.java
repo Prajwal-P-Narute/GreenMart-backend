@@ -25,7 +25,7 @@ import com.greenmart.service.SupplierService;
 
 import lombok.AllArgsConstructor;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://green-mart-ui.netlify.app"})
 @RestController
 @RequestMapping("/admin")
 @AllArgsConstructor

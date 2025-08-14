@@ -29,7 +29,7 @@ import lombok.AllArgsConstructor;
 @RequestMapping("/products")
 @AllArgsConstructor
 @Validated
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://green-mart-ui.netlify.app"})
 public class ProductController {
 	
 	@Autowired

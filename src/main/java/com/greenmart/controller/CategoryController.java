@@ -24,7 +24,7 @@ import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
 @RequestMapping("/categories")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://green-mart-ui.netlify.app"})
 public class CategoryController {
 	
 	@Autowired

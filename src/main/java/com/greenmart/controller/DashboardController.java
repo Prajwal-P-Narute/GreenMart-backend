@@ -16,7 +16,7 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping("/dashboard")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://green-mart-ui.netlify.app"})
 @AllArgsConstructor
 public class DashboardController {
    private final DashboardService dashboardService;
